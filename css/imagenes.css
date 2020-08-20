@@ -21,6 +21,9 @@ body {
   text-decoration: none;
   background: #4aec73;
 }
+.button:hover {
+  background: rgb(17, 119, 17);
+}
 .menu li {
   display: inline-block;
   margin-left: 15px;
@@ -38,6 +41,9 @@ body {
   text-decoration: none;
 }
 
+.menu a:hover {
+  border-top: 3px solid rgb(48, 175, 48);
+}
 .portada {
   display: flex;
   justify-content: center;
