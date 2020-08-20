@@ -1,0 +1,110 @@
+body {
+  font-family: "Allerta", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  padding: 0px 15px 0px 15px;
+}
+.button {
+  border-radius: 12px;
+  margin-left: 15px;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background: #4aec73;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  right: 0;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  background: #efefef;
+}
+.contenedor-imagen {
+  width: 65%;
+  margin-top: 50px;
+  margin-block-end: auto;
+}
+.info-post {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1em 1em;
+  position: absolute;
+  left: 290px;
+  bottom: 300px;
+  border-radius: 8px;
+}
+.footer-post {
+  display: flex;
+}
+.author,
+.time {
+  margin-left: 35px;
+}
+.img-author {
+  border-radius: 50%;
+}
+.contenido {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.articulos {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parrafos {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px 10px 10px;
+}
+
+.tarjeta {
+  width: 300px;
+  padding: 7px;
+  box-shadow: 5px 5px 17px 2px rgba(151, 148, 148, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.pie-pagina {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  font-weight: 300;
+  color: gray;
+}
+.borde {
+  border: 1px solid gray;
+  margin-left: 20px;
+  background-color: #efefef;
+  padding: 8px;
+}
